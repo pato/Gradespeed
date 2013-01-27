@@ -35,10 +35,11 @@ public class Main {
         long start = System.currentTimeMillis();
         
         out.println("Logging in...");
-        String password =                                                                                            "Cocacola1";
+        String username = "";
+        String password = "";
         Response res = Jsoup
             .connect("https://gradespeed.kleinisd.net/pc/Default.aspx")
-            .data("txtUserName", "plankenau")
+            .data("txtUserName", username)
             .data("txtPassWord", password)
             .method(Method.POST)
             .execute();
