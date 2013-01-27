@@ -19,8 +19,8 @@ public class GUI extends javax.swing.JFrame {
     private static ArrayList<JLabel> labels = new ArrayList<JLabel>();
     //private static Map<String, String> cookies;
 
-    private static String username;// = "plankenau";
-    private static String password;// =                                                                                            "Cocacola1";
+    private static String username;
+    private static String password;
 
 
     /** Creates new form GUI */
